@@ -7,7 +7,7 @@ OpenShop adalah RESTful API sederhana untuk mengelola data produk menggunakan **
 Prasyarat: Python **3.10+**
 
 ```bash
-pip install -r requirements.txt
+pipenv install -r requirements.txt
 python manage.py migrate
 python manage.py runserver 8000
 ```
